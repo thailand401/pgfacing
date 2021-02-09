@@ -1,0 +1,172 @@
+.page-container {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#navbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.center-content {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-by-side >* {
+  margin: 0 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-sm {
+  margin: 5px;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.button-sm {
+  padding: 0 10px !important;
+}
+
+.pad-sides-sm {
+  padding: 0 8px !important;
+}
+
+#github-link {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+#overlay, .overlay {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#facesContainer canvas {
+  margin: 10px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background: #26a69a;
+    border: 1px solid gray;
+    cursor: pointer;
+    color: #fff;
+    border-radius: .2em;
+}
+
+canvas {
+  cursor: default !important;
+}
+
+#debug{
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  z-index: 100;
+}
+
+#right_tool{
+  height: 60%;
+  width: 5%;
+  position: absolute;
+  top: 40%;
+  right: 3%;
+  z-index: 101;
+}
+#left_tool{
+  height: 60%;
+  width: 5%;
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  z-index: 101;
+}
+#bottom_tool{
+  width: 80%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  z-index: 101;
+}
+.file_input_div {
+  margin: auto;
+  width: 250px;
+  height: 40px;
+}
+
+.file_input {
+  float: left;
+}
+
+.none {
+  display: none;
+}
+
+.range-field{
+  margin: 0;
+  margin-left: 0px;
+  width: 65px;
+  -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.range-field .thumb{
+  display: none !important;
+}
+
+.parent {
+  margin-top: -10px;
+  width: 100%;
+  overflow: hidden;
+  float: left;
+}
+.child {
+  margin-bottom: -50px; /* maximum width of scrollbar */
+  padding-bottom: 29px; /* maximum width of scrollbar */
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.child p {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+#eye_resource a{
+  margin-right: 10px;
+}
+.btn-floating{
+  margin: 3% 0;
+}
+
+.btn-floating img{
+  width: 92%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.abs-cont{
+  position: absolute !important;
+}
